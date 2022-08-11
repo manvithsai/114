@@ -16,12 +16,11 @@ function draw(){
     image(clown_nose,noseX,noseY,30,30);
     image(video,0,0,300,300);
 }
-
-image(clown_nose,noseX,noseY,30,30);
-
 function take_snapshot(){
 save("clown nose image.jpg");
 }
+nosex=0;
+nosey=0;
 function gotPoses(results){
 if(results.length>0){
 console.log(results);
