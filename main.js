@@ -1,4 +1,5 @@
 function preload(){
+clown_nose=loadImage('https://i.postimg.cc/VkJZgfdM/Clown-Nose-Download-Transparent-PNG-Image.png')
 }
 function setup(){
 canvas=createCanvas(300,300);
